@@ -326,6 +326,13 @@ const NEETStudentJourney = () => {
   return (
     <div className="min-h-screen w-full bg-gradient-to-br from-slate-950 via-rose-950 to-slate-950 text-white p-6">
       {/* Hero Section */}
+      <div className="w-60 mx-auto mb-8">
+        <img 
+          src="/image1.png" 
+          alt="NEET Success Banner" 
+          className="w-full h-auto rounded-3xl shadow-2xl"
+        />
+      </div>
       <div className="max-w-7xl mx-auto mb-8">
         <div className="bg-gradient-to-r from-rose-600 via-pink-600 to-purple-600 rounded-3xl p-8 shadow-2xl border-2 border-rose-400/50">
           <div className="flex items-start justify-between">
