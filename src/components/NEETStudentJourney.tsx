@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TrendingUp, Award, Calendar, BookOpen, Brain, Target, CheckCircle2, AlertCircle, Zap, Trophy, ArrowRight, Clock, BarChart3, Heart, Activity } from 'lucide-react';
+import { TrendingUp, Award, Calendar, Brain, Target, CheckCircle2, AlertCircle, Zap, Trophy, ArrowRight, Clock, BarChart3, Heart, Activity } from 'lucide-react';
 
 const NEETStudentJourney = () => {
   const [activeTab, setActiveTab] = useState('overview');
